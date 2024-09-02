@@ -1,6 +1,6 @@
 [package]
 name = "serde_short"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Nadhmi JAZI <nadhmi.eljazi@gmail.com>"]
 categories = ["encoding", "no-std", "no-std::no-alloc"]
 description = "Derive Serialize and Deserialize for enum reperesented as C short enum"

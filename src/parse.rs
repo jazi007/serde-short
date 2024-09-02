@@ -139,7 +139,7 @@ impl Parse for Input {
                                 )
                             };
                             for ((m0, m1), s) in minax.0.into_iter().zip(minax.1) {
-                                if min > m0 && max < m1 {
+                                if min >= m0 && max <= m1 {
                                     repr = Some(Ident::new(s, call_site));
                                     return Ok(());
                                 }
