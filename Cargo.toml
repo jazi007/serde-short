@@ -1,6 +1,6 @@
 [package]
 name = "serde_short"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Nadhmi JAZI <nadhmi.eljazi@gmail.com>"]
 categories = ["encoding", "no-std", "no-std::no-alloc"]
 description = "Derive Serialize and Deserialize for enum reperesented as C short enum"
@@ -13,13 +13,12 @@ repository = "https://github.com/jazi007/serde-short"
 proc-macro = true
 
 [dependencies]
-cdr = "0.2.4"
 proc-macro2 = "1"
 quote = "1"
 syn = "2"
 
 [dev-dependencies]
-rustversion = "1.0.13"
+cdr = "0.2.4"
 serde = "1"
 serde_json = "1"
 serde_repr = "0.1.19"
