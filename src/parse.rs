@@ -119,7 +119,7 @@ impl Parse for Input {
                                 .collect();
                             let min = discriminents.first().copied().unwrap();
                             let max = discriminents.last().copied().unwrap();
-                            let minax: ([(i64, i64); 3], [&str; 3]) = if min < 0 {
+                            let minax: ([(i64, i64); 3], [&str; 3]) = if min >= 0 {
                                 (
                                     [
                                         (u8::MIN.into(), u8::MAX.into()),
